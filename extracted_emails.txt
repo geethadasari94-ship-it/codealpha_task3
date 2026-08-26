@@ -1,0 +1,3 @@
+admin@example.org
+sales@example.net
+support@example.com
