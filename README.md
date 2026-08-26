@@ -35,23 +35,11 @@ codealpha_task3/
 
 ## 🚀 How to Run
 
-### 1. Open the project folder
-
-```bash
-cd codealpha_task3
-```
-
-### 2. Run the Python script
-
 ```bash
 python email_extractor.py
 ```
 
-### 3. Check the output
-
-After running the script, an `extracted_emails.txt` file will be created automatically.
-
-It contains all the email addresses found in `emails.txt`.
+After running the script, the extracted email addresses are saved in `extracted_emails.txt`.
 
 ## 🧪 Example
 
@@ -76,19 +64,23 @@ admin@example.org
 sales@example.net
 ```
 
+## 🌐 Demo / Output
+
+**Live Demo:** Not applicable — this is a Python automation script that runs locally.
+
+### Sample Output
+
+```text
+Email addresses extracted successfully!
+Total emails found: 3
+```
+
 ## 🔑 Key Concepts
 
-### Regular Expressions
-
-The `re` module is used to identify email addresses from the text.
-
-### File Handling
-
-Python's `open()` function is used to read the input file and create the output file.
-
-### Automation
-
-The script automatically performs the complete extraction process without manually searching for emails.
+* Regular Expressions using `re`
+* File handling using `open()`
+* Reading and writing text files
+* Automation using Python
 
 ## 🎓 Internship Task
 
